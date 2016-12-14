@@ -3,10 +3,10 @@
   <name>秒差距门禁</name>
   <description>
         重庆秒差距科技有限公司门禁系统
-    </description>
-  <author email="you@example.com" href="http://example.com.com/">
+  </description>
+  <author email="hqwlkj@outlook.com" href="http://www.parsec.com.cn/">
       yanghc
-    </author>
+  </author>
   <content src="index.html"/>
   <access origin="*"/>
   <!--解决Android 不能拨打电话,发送邮件、SMS的问题-->
