@@ -1,0 +1,18 @@
+<ion-modal-view>
+  <ion-header-bar class="bar-stable"> <a class="button icon-left ion-ios-arrow-left button-clear button-dark" ng-click="closeForget()"></a>
+    <h1 class="title">忘记密码</h1>
+    <a class="button icon-left button-clear"></a> </ion-header-bar>
+  <ion-content>
+    <div class="list padding">
+      <form name="userlogin" ng-submit="doForget()">
+        <ul class="form" style=" padding: 5px;">
+          <li> <input ng-model="user.username" type="tel" maxlength="11" class="form-text" placeholder="手机号"/></li>
+          <li class="clear"> <input ng-model="user.code" type="text" maxlength="6" class="form-text ipt-verify" placeholder="验证码"/><button type="button" class="btn btn-verify" ng-class="{true: 'btn-bg-color', false: ''}[isActive]" ng-click="getVerify()">{{btn_name}}</button></li>
+          <li> <input ng-model="user.newpwd" type="password" class="form-text" placeholder="新密码"/></li>
+          <li> <input ng-model="user.cnewpwd" type="password" class="form-text" placeholder="确认密码"/></li>
+          <li><button class="button button-positive button-block" type="submit">修改密码</button></li>
+        </ul>
+      </form>
+    </div>
+  </ion-content>
+</ion-modal-view>

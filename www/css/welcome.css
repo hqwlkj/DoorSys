@@ -1,0 +1,57 @@
+#content{
+	position: relative;
+	width: 16rem;
+	margin:  0 auto;
+}
+#guide{
+	position: absolute;
+	left: 50%;
+	margin-left: -8rem;
+	width: 16rem;
+	height: 100%;
+}
+.guide-arrow{
+	position: absolute;
+	width: 2rem;
+	height: 1rem;
+	background: url(../img/guide-arrow.png) 0 0 no-repeat;
+	background-size: 2rem 0.9rem;
+	bottom: 30px;
+	left: 50%;
+	margin-left: -1rem;
+}
+.guide-bg-a{
+	background:#f00 url(../img/welcome-a.jpg) 0 0 no-repeat;
+	background-size: 16rem;
+}
+.guide-bg-b{
+	background: url(../img/welcome-b.jpg) 0 0 no-repeat;
+	background-size: 16rem;
+}
+.guide-bg-c{
+	background: url(../img/welcome-c.jpg) 0 0 no-repeat;
+	background-size: 16rem;
+}
+.guide-bg-d{
+	background: url(../img/welcome-d.jpg) 0 0 no-repeat;
+	background-size: 16rem;
+}
+.guide-bg-e{
+	background: url(../img/welcome-e.jpg) 0 0 no-repeat;
+	background-size: 16rem;
+}
+.guide-sure{
+	position: absolute;
+	width: 6rem;
+	height: 1.8rem;
+	background: url(../img/guide-sure.png) 0 0 no-repeat;
+	background-size: 5.9rem 1.7rem;
+	bottom: 30px;
+	left: 50%;
+	margin-left: -3rem;
+	animation: blink 3s ease-in-out;
+	-moz-animation: blink 3s ease-in-out;
+	-webkit-animation: blink 3s ease-in-out;
+	-o-animation: blink 3s ease-in-out;
+}
+

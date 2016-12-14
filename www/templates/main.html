@@ -1,0 +1,65 @@
+<!-- <ion-pane>
+    <ion-content class="padding" style="background: url('img/bg1.jpg');">
+        <form class="list">
+            <div class="clock">
+                <div class="date"><span id="Date">{{ date }}</span></div>
+                <div class="time"><span id="hours">{{ hours }}</span>
+                <span id="point">:</span>
+                <span id="min">{{ min }}</span>
+                <span id="point">:</span>
+                <span id="sec" ng-bind-html="sec"></span></div>
+            </div>
+            <div class="username">{{username}}</div>
+            <div ng-class="{true: 'openDoor', false: ''}[isActive]" style="margin: 2.625rem auto; line-height: 7.125rem; background:url('img/img2.png') center; border: 2px solid #cb4a46; width: 7.125rem; height: 7.125rem; overflow: hidden; border-radius: 7.125rem; text-align: center; background-size: 100% 100%;" ng-click="openDoor()">
+            </div>
+            <div class="row">
+                <div class="operation">
+                    <div class="address">
+                        <div class="icon-address" ng-click='gotoAddress()'></div>
+                        <span>通讯录</span>
+                    </div>
+                    <div class="waterfall">
+                        <div class="icon-waterfall" ng-click='gotoWaterfall()'></div>
+                        <span>照片墙</span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </ion-content>
+</ion-pane> -->
+<ion-pane>
+    <ion-content class="padding main">
+        <form class="list">
+            <div class="row">
+                <button ng-class="{true: 'openDoor', false: ''}[isActive]" ng-disabled="button_clicked" class="btn-door" ng-click="openDoor()">
+            </button>
+            </div>
+            <div class="row">
+                <div class="clock">
+                    <div class="date"><span id="Date">{{ date }}</span></div>
+                    <div class="time"><span id="hours">{{ hours }}</span>
+                    <span id="point">:</span>
+                    <span id="min">{{ min }}</span>
+                    <span id="point">:</span>
+                    <span id="sec" ng-bind-html="sec"></span></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="operation">
+                    <div class="address">
+                        <div class="icon-address" ng-click='gotoAddress()'>
+                            <i class="iconfont icon-tongxunlu"></i>
+                        </div>
+                        <span>通讯录</span>
+                    </div>
+                    <div class="waterfall">
+                        <div class="icon-waterfall" ng-click='gotoWaterfall()'>
+                            <i class="iconfont icon-zhaopian"></i>
+                        </div>
+                        <span>照片墙</span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </ion-content>
+</ion-pane>

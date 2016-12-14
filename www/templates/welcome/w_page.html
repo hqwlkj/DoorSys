@@ -1,0 +1,17 @@
+<ion-contetn class="guide-start" on-swipe-left="onSwipeLeft()" on-swipe-up="onSwipeLeft()" on-swipe-down="onSwipeLeft()">
+<section id="guide" ng-show="guideFlag=='a'" class="guide-bg-a">
+	<div class="guide-arrow" ng-click="guideFlag='b'"></div>
+</section>
+<section id="guide" ng-show="guideFlag=='b'" class="guide-bg-b">
+	<div class="guide-arrow" ng-click="guideFlag='c'"></div>
+</section>
+<section id="guide" ng-show="guideFlag=='c'" class="guide-bg-c">
+	<div class="guide-arrow" ng-click="guideFlag='d'"></div>
+</section>
+<section id="guide" ng-show="guideFlag=='d'" class="guide-bg-d">
+	<div class="guide-arrow" ng-click="guideFlag='e'"></div>
+</section>
+<section id="guide" ng-show="guideFlag=='e'" class="guide-bg-e">
+	<div class="guide-sure" ng-click="guideSure()"></div>
+</section>
+</ion-contetn>
